@@ -1,0 +1,146 @@
+[
+    {
+        "username": "cs_user_0",
+        "password": "password",
+        "role": "Customer Service",
+        "kantor_cabang_id": 1,
+        "nama_cabang": "KCP Pondok Kelapa, Jakarta Timur",
+        "alamat_cabang": "Jl. Raya Kalimalang No. 4B, Pondok Kelapa, Jatinegara, Jakarta Timur, DKI Jakarta 13450"
+    },
+    {
+        "username": "supervisor_user_0",
+        "password": "password",
+        "role": "Supervisor",
+        "kantor_cabang_id": 1,
+        "nama_cabang": "KCP Pondok Kelapa, Jakarta Timur",
+        "alamat_cabang": "Jl. Raya Kalimalang No. 4B, Pondok Kelapa, Jatinegara, Jakarta Timur, DKI Jakarta 13450"
+    },
+    {
+        "username": "cs_user_1",
+        "password": "password",
+        "role": "Customer Service",
+        "kantor_cabang_id": 2,
+        "nama_cabang": "KCP Cipulir, Jakarta Selatan",
+        "alamat_cabang": "Jl. Raya Ciledug No. 20 B-c 5, Cipulir, Kebayoran Lama, Jakarta Selatan, DKI Jakarta 12230"
+    },
+    {
+        "username": "supervisor_user_1",
+        "password": "password",
+        "role": "Supervisor",
+        "kantor_cabang_id": 2,
+        "nama_cabang": "KCP Cipulir, Jakarta Selatan",
+        "alamat_cabang": "Jl. Raya Ciledug No. 20 B-c 5, Cipulir, Kebayoran Lama, Jakarta Selatan, DKI Jakarta 12230"
+    },
+    {
+        "username": "cs_user_2",
+        "password": "password",
+        "role": "Customer Service",
+        "kantor_cabang_id": 3,
+        "nama_cabang": "KCP Jatibaru, Jakarta Pusat",
+        "alamat_cabang": "Gedung Dinas Teknis Pemprov DKI, Lt. Dasar, Jl. Taman Jatibaru I No. 4, Cideng, Gambir, Jakarta Pusat, DKI Jakarta 10150"
+    },
+    {
+        "username": "supervisor_user_2",
+        "password": "password",
+        "role": "Supervisor",
+        "kantor_cabang_id": 3,
+        "nama_cabang": "KCP Jatibaru, Jakarta Pusat",
+        "alamat_cabang": "Gedung Dinas Teknis Pemprov DKI, Lt. Dasar, Jl. Taman Jatibaru I No. 4, Cideng, Gambir, Jakarta Pusat, DKI Jakarta 10150"
+    },
+    {
+        "username": "cs_user_3",
+        "password": "password",
+        "role": "Customer Service",
+        "kantor_cabang_id": 4,
+        "nama_cabang": "KCP Pasar Minggu, Jakarta Selatan",
+        "alamat_cabang": "Jl. Raya Pasar Minggu No. 13, Pejaten Timur, Pasar Minggu, Jakarta Selatan, DKI Jakarta"
+    },
+    {
+        "username": "supervisor_user_3",
+        "password": "password",
+        "role": "Supervisor",
+        "kantor_cabang_id": 4,
+        "nama_cabang": "KCP Pasar Minggu, Jakarta Selatan",
+        "alamat_cabang": "Jl. Raya Pasar Minggu No. 13, Pejaten Timur, Pasar Minggu, Jakarta Selatan, DKI Jakarta"
+    },
+    {
+        "username": "cs_user_4",
+        "password": "password",
+        "role": "Customer Service",
+        "kantor_cabang_id": 5,
+        "nama_cabang": "KCP Kalimalang, Jakarta Timur",
+        "alamat_cabang": "Jl. Raya Kalimalang, Cipinang Muara, Jakarta Timur, DKI Jakarta"
+    },
+    {
+        "username": "supervisor_user_4",
+        "password": "password",
+        "role": "Supervisor",
+        "kantor_cabang_id": 5,
+        "nama_cabang": "KCP Kalimalang, Jakarta Timur",
+        "alamat_cabang": "Jl. Raya Kalimalang, Cipinang Muara, Jakarta Timur, DKI Jakarta"
+    },
+    {
+        "username": "cs_user_5",
+        "password": "password",
+        "role": "Customer Service",
+        "kantor_cabang_id": 6,
+        "nama_cabang": "KCP Otista, Jakarta Timur",
+        "alamat_cabang": "Jl. Otista Raya No. 15, Bidara Cina, Jakarta Timur, DKI Jakarta"
+    },
+    {
+        "username": "supervisor_user_5",
+        "password": "password",
+        "role": "Supervisor",
+        "kantor_cabang_id": 6,
+        "nama_cabang": "KCP Otista, Jakarta Timur",
+        "alamat_cabang": "Jl. Otista Raya No. 15, Bidara Cina, Jakarta Timur, DKI Jakarta"
+    },
+    {
+        "username": "cs_user_6",
+        "password": "password",
+        "role": "Customer Service",
+        "kantor_cabang_id": 7,
+        "nama_cabang": "KCP Cikini, Jakarta Pusat",
+        "alamat_cabang": "Jl. Cikini Raya No. 12, Menteng, Jakarta Pusat, DKI Jakarta"
+    },
+    {
+        "username": "supervisor_user_6",
+        "password": "password",
+        "role": "Supervisor",
+        "kantor_cabang_id": 7,
+        "nama_cabang": "KCP Cikini, Jakarta Pusat",
+        "alamat_cabang": "Jl. Cikini Raya No. 12, Menteng, Jakarta Pusat, DKI Jakarta"
+    },
+    {
+        "username": "cs_user_7",
+        "password": "password",
+        "role": "Customer Service",
+        "kantor_cabang_id": 8,
+        "nama_cabang": "KCP Pasar Rebo, Jakarta Timur",
+        "alamat_cabang": "Jl. Raya Bogor KM 25, Pasar Rebo, Jakarta Timur, DKI Jakarta"
+    },
+    {
+        "username": "supervisor_user_7",
+        "password": "password",
+        "role": "Supervisor",
+        "kantor_cabang_id": 8,
+        "nama_cabang": "KCP Pasar Rebo, Jakarta Timur",
+        "alamat_cabang": "Jl. Raya Bogor KM 25, Pasar Rebo, Jakarta Timur, DKI Jakarta"
+    },
+    {
+        "username": "cs_user_8",
+        "password": "password",
+        "role": "Customer Service",
+        "kantor_cabang_id": 9,
+        "nama_cabang": "KCP Tebet, Jakarta Selatan",
+        "alamat_cabang": "Jl. Tebet Timur Dalam Raya, Tebet, Jakarta Selatan, DKI Jakarta"
+    },
+    {
+        "username": "supervisor_user_8",
+        "password": "password",
+        "role": "Supervisor",
+        "kantor_cabang_id": 9,
+        "nama_cabang": "KCP Tebet, Jakarta Selatan",
+        "alamat_cabang": "Jl. Tebet Timur Dalam Raya, Tebet, Jakarta Selatan, DKI Jakarta"
+    }
+]

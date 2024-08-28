@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="home-container">
+        <header class="home-header">
+            <h1>Selamat Datang di Dashboard</h1>
+            <button id="loginBtn" class="action-btn">Login</button>
+        </header>
+        <div class="home-content">
+            <p>Ini adalah halaman utama aplikasi. Gunakan tombol login untuk mengakses dashboard.</p>
+            <section class="description">
+                <h2>Deskripsi Sistem</h2>
+                <p>Sistem ini digunakan untuk proses pembukaan rekening di Kantor Cabang Bank DKI. Setiap cabang memiliki dua pengguna:</p>
+                <ul>
+                    <li><strong>Customer Service (CS):</strong> Menginput data calon nasabah yang ingin membuka rekening.</li>
+                    <li><strong>Supervisor:</strong> Menyetujui pengajuan pembukaan rekening yang diajukan oleh CS.</li>
+                </ul>
+                <p>Data yang diinput meliputi nama, tempat dan tanggal lahir, jenis kelamin, pekerjaan, alamat, dan nominal setor. Setelah data diinput, statusnya akan "Menunggu Approval". Supervisor dapat menyetujui pengajuan melalui menu Approval Pembukaan Rekening.</p>
+            </section>
+            <a href="data_user.html" class="action-btn">Lihat Data User</a>
+        </div>
+        <script src="js/home.js"></script>
+    </div>
+</body>
+</html>

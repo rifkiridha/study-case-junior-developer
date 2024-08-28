@@ -1,0 +1,467 @@
+{
+	"info": {
+		"_postman_id": "63c98307-3c66-4b82-b0c2-e9e1df6925ab",
+		"name": "API Test Bank DKI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27565426"
+	},
+	"item": [
+		{
+			"name": "Login 1 (CS)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"username\": \"cs_user_1\",\r\n        \"password\": \"password\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login 2 (Supervisor)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"username\": \"supervisor_user_1\",\r\n        \"password\": \"password\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Calon Nasabah",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 44|2IGvmhpeOHLMQ1gkpFqigSRd3Ci8uQyMnRA4e21z0cfc8ff7"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/calon-nasabah",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"calon-nasabah"
+					]
+				},
+				"description": "Generated from cURL: curl -X GET http://localhost/api/calon-nasabah \\\r\n    -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\"\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Details Calon Nasabah",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 4|1BAzAtR3V9zZlP0wt9E7NP0CgKUOCXG6T4qwNs02f4872161"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/calon-nasabah",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"calon-nasabah"
+					]
+				},
+				"description": "Generated from cURL: curl -X GET http://localhost/api/calon-nasabah \\\r\n    -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\"\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Approve Nasabah",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 4|1BAzAtR3V9zZlP0wt9E7NP0CgKUOCXG6T4qwNs02f4872161"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/calon-nasabah/3/approve",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"calon-nasabah",
+						"3",
+						"approve"
+					]
+				},
+				"description": "Generated from cURL: curl -X GET http://localhost/api/calon-nasabah \\\r\n    -H \"Authorization: Bearer YOUR_ACCESS_TOKEN\"\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "List Pekerjaan",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 9|KMqlaSPlachphULAAWmEDgrZMraSXUqnTAIA9ikmb3878431",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/pekerjaan",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"pekerjaan"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Provinsi",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 1|8fCuTV81qe7PaJtwLL3XcDkadFkNpZ9ZkA1cO8zB4b2523f6",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/provinsi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"provinsi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Kabupaten/Kota",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 9|KMqlaSPlachphULAAWmEDgrZMraSXUqnTAIA9ikmb3878431",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/kab-kota",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"kab-kota"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Kabupaten by Provinsi",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 1|8fCuTV81qe7PaJtwLL3XcDkadFkNpZ9ZkA1cO8zB4b2523f6",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/kab-kota/provinsi/11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"kab-kota",
+						"provinsi",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Kecamatan by Kabupaten/Kota",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 1|8fCuTV81qe7PaJtwLL3XcDkadFkNpZ9ZkA1cO8zB4b2523f6",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/kecamatan/kab-kota/1101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"kecamatan",
+						"kab-kota",
+						"1101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Kelurahan by Kecamatan",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 1|8fCuTV81qe7PaJtwLL3XcDkadFkNpZ9ZkA1cO8zB4b2523f6",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/kelurahan/kecamatan/1101010",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"kelurahan",
+						"kecamatan",
+						"1101010"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Kabupaten/Kota by Id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 9|KMqlaSPlachphULAAWmEDgrZMraSXUqnTAIA9ikmb3878431",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/kab-kota/1101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"kab-kota",
+						"1101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Provinsi by Id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 9|KMqlaSPlachphULAAWmEDgrZMraSXUqnTAIA9ikmb3878431",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/provinsi/11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"provinsi",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Input Calon Nasabah",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer 40|0UcDjXC9eC4ED7y0NIc6QdONnN2L3RBK29KXXkCL8bc7320a",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nama\": \"John Doe\",\r\n    \"tempat_lahir\": \"Jakarta\",\r\n    \"tanggal_lahir\": \"1990-01-01\",\r\n    \"jenis_kelamin\": \"Laki-laki\",\r\n    \"pekerjaan_id\": 1,\r\n    \"provinsi_id\": 11,\r\n    \"kab_kota_id\": 1101,\r\n    \"kecamatan_id\": 1101010,\r\n    \"kelurahan_id\": 1101010001,\r\n    \"nama_jalan\": \"Jl. Merdeka No. 1\",\r\n    \"rt\": \"01\",\r\n    \"rw\": \"02\",\r\n    \"nominal_setor\": 1000000.00,\r\n    \"kantor_cabang_id\": 1,\r\n    \"status\": \"Menunggu Approval\",\r\n    \"approved_by\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/calon-nasabah",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"calon-nasabah"
+					]
+				},
+				"description": "Generated from cURL: curl -X POST \"http://localhost:8000/api/calon-nasabah\" \\\r\n-H \"Content-Type: application/json\" \\\r\n-d '{\r\n    \"nama\": \"John Doe\",\r\n    \"tempat_lahir\": \"Jakarta\",\r\n    \"tanggal_lahir\": \"1990-01-01\",\r\n    \"jenis_kelamin\": \"Laki-laki\",\r\n    \"pekerjaan_id\": 1,\r\n    \"provinsi_id\": 11,\r\n    \"kab_kota_id\": 1101,\r\n    \"kecamatan_id\": 1101010,\r\n    \"kelurahan_id\": 1101010001,\r\n    \"nama_jalan\": \"Jl. Merdeka No. 1\",\r\n    \"rt\": \"01\",\r\n    \"rw\": \"02\",\r\n    \"nominal_setor\": 1000000.00,\r\n    \"kantor_cabang_id\": 1,\r\n    \"status\": \"Menunggu Approval\",\r\n    \"approved_by\": null\r\n}'\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "List Kantor Cabang",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 55|AL3fBc4vuTsfdqLXhJKBBmpdPc2Q95UKSzMRgIv90cb18c5f"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/kantor-cabang",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"kantor-cabang"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8000/api/kantor-cabang' \\\r\n--header 'Authorization: Bearer YOUR_ACCESS_TOKEN'\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Cabang by Id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 55|AL3fBc4vuTsfdqLXhJKBBmpdPc2Q95UKSzMRgIv90cb18c5f"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8000/api/kantor-cabang/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"kantor-cabang",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl --location 'http://localhost:8000/api/kantor-cabang' \\\r\n--header 'Authorization: Bearer YOUR_ACCESS_TOKEN'\r\n"
+			},
+			"response": []
+		}
+	]
+}

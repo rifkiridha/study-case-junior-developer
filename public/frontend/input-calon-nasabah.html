@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Calon Nasabah</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Input Calon Nasabah</h1>
+        <form id="inputForm">
+            <!-- Form fields -->
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="tempat_lahir">Tempat Lahir:</label>
+            <input type="text" id="tempat_lahir" name="tempat_lahir" required>
+
+            <label for="tanggal_lahir">Tanggal Lahir:</label>
+            <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+
+            <label for="jenis_kelamin">Jenis Kelamin:</label>
+            <select id="jenis_kelamin" name="jenis_kelamin" required>
+                <option value="Laki-laki">Laki-laki</option>
+                <option value="Perempuan">Perempuan</option>
+            </select>
+
+            <label for="pekerjaan">Pekerjaan:</label>
+            <select id="pekerjaan" name="pekerjaan" required>
+                <!-- Options will be populated by JavaScript -->
+            </select>
+
+            <label for="provinsi">Provinsi:</label>
+            <select id="provinsi" name="provinsi" required>
+                <!-- Options will be populated by JavaScript -->
+            </select>
+
+            <label for="kab_kota">Kabupaten/Kota:</label>
+            <select id="kab_kota" name="kab_kota" required disabled>
+                <!-- Options will be populated by JavaScript -->
+            </select>
+
+            <label for="kecamatan">Kecamatan:</label>
+            <select id="kecamatan" name="kecamatan" required disabled>
+                <!-- Options will be populated by JavaScript -->
+            </select>
+
+            <label for="kelurahan">Kelurahan:</label>
+            <select id="kelurahan" name="kelurahan" required disabled>
+                <!-- Options will be populated by JavaScript -->
+            </select>
+
+            <label for="nama_jalan">Nama Jalan:</label>
+            <input type="text" id="nama_jalan" name="nama_jalan" required>
+
+            <label for="rt">RT:</label>
+            <input type="text" id="rt" name="rt" required>
+
+            <label for="rw">RW:</label>
+            <input type="text" id="rw" name="rw" required>
+
+            <label for="nominal_setor">Nominal Setor:</label>
+            <div class="currency-input">
+                <span>Rp.</span>
+                <input type="number" id="nominal_setor" name="nominal_setor" step="0.01" required>
+            </div>
+
+            <div class="button-container">
+                <button type="submit" id="submitBtn">Submit</button>
+                <button type="button" id="cancelBtn">Cancel</button>
+            </div>
+        </form>
+        <script src="js/input-calon-nasabah.js"></script>
+    </div>
+</body>
+</html>

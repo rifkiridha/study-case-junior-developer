@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="user-info">
+            <span id="username">Username: </span>
+            <span id="role">Role: </span>
+            <!-- <span id="cabang">Cabang: </span> -->
+        </div>
+        <button id="logoutBtn" class="logout-btn">Logout</button>
+    </header>
+
+    <div class="dashboard-container">
+        <h1>Dashboard</h1>
+        
+        <!-- Added Kantor Cabang and Alamat display -->
+        <div class="dashboard-info">
+            <p id="kantorCabang">Kantor Cabang: </p>
+            <p id="alamat">Alamat: </p>
+        </div>
+        
+        <div class="actions">
+            <button id="inputNasabahBtn" class="action-btn">Input Calon Nasabah</button>
+        </div>
+        
+        <table id="nasabahTable">
+            <thead>
+                <tr>
+                    <th>Nama</th>
+                    <th>Tempat Lahir</th>
+                    <th>Tanggal Lahir</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Nama Jalan</th>
+                    <th>RT</th>
+                    <th>RW</th>
+                    <th>Nominal Setor</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Data will be populated here -->
+            </tbody>
+        </table>
+        
+        <script src="js/dashboard.js"></script>
+    </div>
+</body>
+</html>
