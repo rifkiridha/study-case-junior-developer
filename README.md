@@ -2,7 +2,7 @@
 
 ## Database Configuration
 
-1. Open the `.env` file in the root directory of your project.
+1. Open the `.env` file in the root directory of the project.
 2. Update the database configuration settings as follows:
 
    DB_CONNECTION=pgsql
