@@ -5,6 +5,10 @@
 # /public/storage
 /storage/*.key
 !/storage/app/public/json/
+!/storage/app/public/json/provinsi.json
+!/storage/app/public/json/kab_kota.json
+!/storage/app/public/json/kecamatan.json
+!/storage/app/public/json/kelurahan.json
 /vendor
 .env.backup
 .env.production
